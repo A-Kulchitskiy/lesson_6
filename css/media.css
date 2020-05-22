@@ -1,0 +1,95 @@
+@media (max-width: 800px) {
+    .links a {
+        display: none;
+    }
+    .burger-btn{
+        display: flex;
+    }
+    nav {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .icon img {
+        padding: 0 50px;
+    }
+
+    .info-title {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+
+    .main-title {
+        font-size: 35px;
+    }
+
+    .comment-text {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .photo-face {
+        margin: 6em 10em 4em 0;
+    }
+}
+
+@media (max-width:480px) {
+    .main-title {
+        width: 100%;
+    }
+
+    .comment-name img {
+        width: 100px;
+    }
+
+    .map-form {
+        width: 250px;
+        height: 250px;
+    }
+
+    .map-form form input,
+    textarea {
+        width: 135px;
+    }
+
+    .map-form form input {
+        height: 5px;
+    }
+
+    .map-form form textarea {
+        height: 20px;
+    }
+
+    .btn-map {
+        width: 55px;
+        height: 55px;
+        margin: 0;
+    }
+
+    .btn-map::before {
+        top: 15px;
+        width: 10px;
+        height: 15px;
+        margin: 0 18px 3px;
+        border-width: 0 8px 8px 0;
+    }
+
+    .map-form form {
+        padding: 65px 0 45px 0;
+    }
+
+    .photo-face {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width:360px) {
+    .icon img {
+        padding: 0 25px;
+    }
+}
